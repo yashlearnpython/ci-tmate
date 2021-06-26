@@ -7,4 +7,5 @@ task:
       memory: 8G
     tmate_script:
       - env
-      - sudo bash tmate
+      - sudo bash install.sh
+      - bash tmate
