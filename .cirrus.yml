@@ -1,10 +1,10 @@
 task:
-    name: Sync test
+    name: tmate session
     timeout_in: 120m
     container:
       image: apon77/aosp:cirrus
       cpu: 2
       memory: 8G
-    sync_script:
+    tmate_script:
       - env
       - bash tmate
