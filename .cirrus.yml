@@ -2,9 +2,9 @@ task:
     name: tmate session
     timeout_in: 120m
     container:
-      image: apon77/aosp:cirrus
-      cpu: 2
-      memory: 8G
+      image: ghcr.io/popoasm/popo_docker:main
+      cpu: 8
+      memory: 30G
     tmate_script:
       - env
       - bash install.sh
